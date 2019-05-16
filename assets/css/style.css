@@ -43,6 +43,8 @@ li a {
 footer {
     background-color: #000000;
     height: 40px;
+    width: 100%;
+    bottom: 0;
 }
 
 h3 {
@@ -71,5 +73,7 @@ h3 {
     border-top: 1px solid grey;
     border-bottom: 5px solid #008d76;
     } 
-
+#appleimg {
+    float:left;
+}
 
