@@ -49,10 +49,6 @@ li a {
     color: #949494;
 }
 
-.push {
-    height: 100%;
-}
-
 footer {
     background-color: #000000;
     height: 40px;
@@ -107,6 +103,7 @@ h3 {
     left: 50%;
     top: 80%;
 }
+
 
 /*
 bground img needs to be anchored
