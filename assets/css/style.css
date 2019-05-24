@@ -109,30 +109,44 @@ h3 {
     float:left;
 }
 
+.imgset {
+    content: "";
+    clear: both;
+    display: table;
+    position: relative;
+}
+
 .portfolio {
     position: relative;
-    width: 960px;
-    height: 100%;
-    bottom: 0;
-    margin: 0 auto;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 
 .pfolpic1 {
-    position: relative;
     box-shadow: 2px 2px 7px black;
-    margin: 10px;
-}
-
-img {
     outline: 1px solid white;
     outline-offset: -5px;
+    display: block;
+    
 }
-
 
 .text1 {
     position: absolute;
-    left: 50%;
-    top: 80%;
+    top: 70%;  
+    background: rgb(0, 121, 105); 
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+    opacity: 0;
+    transition: .5s ease;
+    box-shadow: 0 0 5px rgb(0, 121, 105);
+}
+
+.portfolio:hover .text1 {
+    opacity: 1;
 }
 
 #nfield1 {
