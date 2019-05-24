@@ -12,6 +12,7 @@
 h1 {
     color:white;
     text-align: center;
+    font-weight: normal;
     float: left;
     margin-bottom: 30px;
     font-size: 20px;
@@ -100,7 +101,7 @@ h3 {
 }
 
 .backgroundimage {
-    background: url("https://marble.com/uploads/materials/958/1280X720/granite_Snow-White_Q53QYIhU0rIWRSJKtzSg.jpg");
+    background: url(../images/granite.jpg);
     min-height: 100%;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
@@ -133,6 +134,7 @@ h3 {
 
 .text1 {
     position: absolute;
+    font-family: Poiret One;
     top: 70%;  
     background: rgb(0, 121, 105); 
     color: white;
@@ -143,10 +145,11 @@ h3 {
     opacity: 0;
     transition: .5s ease;
     box-shadow: 0 0 5px rgb(0, 121, 105);
+    text-shadow: 0 0 5px white;
 }
 
 .portfolio:hover .text1 {
-    opacity: 1;
+    opacity: 0.9;
 }
 
 #nfield1 {
