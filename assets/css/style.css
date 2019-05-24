@@ -4,6 +4,11 @@
     height: 60px; 
 }
 
+.mainheader:hover {
+    text-shadow: 0 0 5px Crimson;
+    box-shadow: 0 0 5px rgb(0, 121, 105);
+}
+
 h1 {
     color:white;
     text-align: center;
@@ -12,6 +17,7 @@ h1 {
     font-size: 20px;
     width: 100%;
 }
+
 
 h2 {
     color: rgb(0, 121, 105);
@@ -52,8 +58,12 @@ li a {
 
 li a:hover {
     color: rgb(0, 121, 105);
-    background-color: #aaa3a32f;
+    text-shadow: 0 0 5px rgb(0, 121, 105);
+}
 
+li a:active {
+    text-shadow: 0 0 7px green;
+    color: white;
 }
 
 footer {
@@ -101,9 +111,23 @@ h3 {
 
 .portfolio {
     position: relative;
-    text-align: center;
-
+    width: 960px;
+    height: 100%;
+    bottom: 0;
+    margin: 0 auto;
 }
+
+.pfolpic1 {
+    position: relative;
+    box-shadow: 2px 2px 7px black;
+    margin: 10px;
+}
+
+img {
+    outline: 1px solid white;
+    outline-offset: -5px;
+}
+
 
 .text1 {
     position: absolute;
@@ -117,6 +141,10 @@ h3 {
     padding: 0 10px;
 }
 
+#nfield1:hover, textarea:hover {
+    box-shadow: 0 0 1px rgb(0, 121, 105);
+}
+
 .submitb {
     background-color: rgb(0, 121, 105);
     border: none;
@@ -126,7 +154,7 @@ h3 {
     width: 100px;
     height: 31px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 3px;
     margin-top: 10px;  
 }
 
