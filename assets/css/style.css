@@ -58,7 +58,7 @@ li a {
 
 li a:hover {
     color: rgb(0, 121, 105);
-    text-shadow: 0 0 5px rgb(0, 121, 105);
+    text-shadow: 0 0 2px rgb(0, 121, 105);
 }
 
 li a:active {
