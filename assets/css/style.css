@@ -52,7 +52,6 @@ li {
 li a {
     display: block;
     padding: 1px 10px;
-    background-color: #ffffff;
     text-decoration: none;
     color: #949494;
 }
@@ -91,6 +90,7 @@ h3 {
     padding: 20px;
     margin: 0 auto;
     min-height: 100%;
+    box-shadow: 2px 2px 15px black;
 }
 
 .container {
